@@ -83,13 +83,15 @@ h1:before{
 	content: 'NATURES WONDER';
 	position: absolute;
 	mix-blend-mode: multiply;
-	filter: blur(5px);
-	text-decoration-color:linear-gradient(114.90912979828818deg, rgba(244, 72, 105,1) 5.273809523809524%,rgba(159, 1, 234,1) 97.17857142857142%);
+	filter: blur(3px);
+	background:linear-gradient(114.90912979828818deg, rgba(244, 72, 105,1) 5.273809523809524%,rgba(159, 1, 234,1) 97.17857142857142%);
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip:text;
 }
 
 h1{
 
 	font-size:90px;
 	
-
+    text-shadow: -3px -3px 5px white;
 }

@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Century Gothic;
+
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.3),
+		             rgba(0,0,0,0.3)), url(../img1.jpeg);
+	background-size: cover;
+
+}
+ul{
+	float:right;
+	margin-top: 25px;
+	margin-right: 20px;
+	font-size: 30px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px 40px;
+	border:1px solid transparent;
+	transition: 0.6s ease;
+	cursor: pointer;
+	border-radius: 100px;
+
+}
+ul .active:hover{
+	background-color: green;
+}
+.logo img{
+	float: left;
+	width:80px;
+	height:100px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.title{
+	position: absolute;
+	top: 40%;
+	left:45%;
+	transform: translate(-40%,-40%);
+	color: white;}
+.button{
+	position: absolute;
+	top: 50%;
+	left:45%;
+	transform: translate(-40%,-40%);
+
+}
+.bro{
+	
+	
+	text-shadow: 0 0px 10px white;
+}
+ul li a:hover{
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size:400%;
+	}
+ul li a:hover{
+   animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0%;
+	}
+	100%
+	{
+		background-position: 400%;
+	}
+}
+ul li a:hover{
+box-shadow: 0 5px 50px 0 #87cefa inset,0 5px 50px 0 #87cefa,
+	            0 5px 50px 0 #87cefa inset,0 5px 50px 0 #87cefa;
+	        }
+h1:before{
+	content: 'NATURES WONDER';
+	position: absolute;
+	mix-blend-mode: multiply;
+	filter: blur(5px);
+	text-decoration-color:linear-gradient(114.90912979828818deg, rgba(244, 72, 105,1) 5.273809523809524%,rgba(159, 1, 234,1) 97.17857142857142%);
+}
+
+h1{
+
+	font-size:90px;
+	
+
+}

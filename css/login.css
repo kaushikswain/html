@@ -17,6 +17,8 @@ body{
 	background-image:linear-gradient(rgba(0,0,0,0),
 		             rgba(0,0,0,0)), url(../nat.jpeg);
 	background-size: cover;
+	background-position: center;
+	height:100vh;
     
 }
 label{
